@@ -388,7 +388,7 @@ input:focus{
 @media only screen and (min-width: 600px) {
   #amount{
     /*POSITION SETTING*/
-    padding-right:40px;
+    margin-right:40px;
     position:static;
     float:right;
     z-index:100;
@@ -398,21 +398,25 @@ input:focus{
     font-size: 90px;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 900;
-    letter-spacing: -3px;
+    letter-spacing: 0px;
+    text-indent: 0px;
+    text-align: end;
+    height:100px;
     color:hsla(120, 60%, 40%, 1);
   }}
 @media only screen and (max-width: 600px) {
   #amount{
     /*POSITION SETTING*/
     padding-top:0px;
-    padding-right:30px;
+    margin-top:5%;
+    margin-right:30px;
     position:static;
     float:right;
     z-index:100;
     /*FONT SETTING*/
     user-select: none;
     src: url("NunitoSans-Black.ttf");
-    font-size: 70px;
+    font-size: 50px;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 900;
     letter-spacing: -3px;
